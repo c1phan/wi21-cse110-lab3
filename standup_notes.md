@@ -28,7 +28,14 @@
 .
 
 ### Obstacles
+**Task Name**  
+Description  
+  
+**Task Name**  
 Description
+.
+.
+.
 
 ### New Tasks
 1. Task #1
