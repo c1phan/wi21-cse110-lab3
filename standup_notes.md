@@ -32,10 +32,10 @@
 Description  
   
 2. Task Name  
-Description
-.
-.
-.
+Description  
+.  
+.  
+.  
 
 ### New Tasks
 1. Task #1
