@@ -1,5 +1,5 @@
 # Weekly Status Report
-## Date: 
+## Date: ##/##/##
 ## Attendance:
 - [ ] Christine Phan
 - [ ] David Cruz
