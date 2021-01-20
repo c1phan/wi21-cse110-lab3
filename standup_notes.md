@@ -28,10 +28,10 @@
 .
 
 ### Obstacles
-**Task Name**  
+1. Task Name  
 Description  
   
-**Task Name**  
+2. Task Name  
 Description
 .
 .
