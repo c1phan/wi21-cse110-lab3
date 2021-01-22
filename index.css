@@ -1,0 +1,13 @@
+.header_intro {
+    padding: 70px !important;
+    text-align: center !important; 
+    background-color: blanchedalmond !important;
+    color: burlywood !important;
+}
+
+h3.section_color {
+    padding: 30px;
+    text-align: center;
+    background-color: cornsilk;
+    color: darkslategray;
+}
