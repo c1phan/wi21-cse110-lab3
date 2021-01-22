@@ -1,3 +1,4 @@
+/* Class used to style my header */
 .header_intro {
     padding: 70px !important;
     text-align: center !important; 
@@ -5,9 +6,48 @@
     color: burlywood !important;
 }
 
-h3.section_color {
+/* Adds some color and padding to all h3 */
+h3 {
     padding: 30px;
     text-align: center;
     background-color: cornsilk;
     color: darkslategray;
+    text-decoration: underline;
+}
+
+/* Colors and pads the first p after a h3. */
+h3 + p {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:rgb(255, 250, 240);
+    font-size: 2.5ex;
+}
+
+/* Adds some color to my linkedin and email plug */
+.side_note{
+    background-color:#FFFBBB;
+    color: #D7A;
+}
+
+/* Makes words in italic a purple-blue color*/
+i {
+    color: hsl(256, 100%, 45%);
+}
+
+/* Makes words in bold a pink color*/
+b {
+    color: rgb(250, 106, 148);
+}
+
+/* Aligns the lists */
+ul, li {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    list-style-position: inside;
+    display: sticky;
+    position: relative;
 }
