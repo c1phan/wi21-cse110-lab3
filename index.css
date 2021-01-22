@@ -1,9 +1,9 @@
 /* Class used to style my header */
 .header_intro {
-    padding: 70px !important;
-    text-align: center !important; 
-    background-color: blanchedalmond !important;
-    color: burlywood !important;
+    padding: 70px;
+    text-align: center; 
+    background-color: blanchedalmond;
+    color: burlywood;
 }
 
 /* Adds some color and padding to all h3 */
@@ -23,6 +23,19 @@ h3 + p {
     padding-bottom: 20px;
     background-color:rgb(255, 250, 240);
     font-size: 2.5ex;
+}
+
+/* Colors all h4 siblings of h3 */
+h3 ~ h4 {
+    background-color:seashell;
+    padding: 25px;
+    line-height: 2em;
+}
+
+/* Child selector for h3 headers inside divs */
+div > h3 {
+    background-color: hsl(50, 100%, 78%);
+    text-decoration: underline;
 }
 
 /* Adds some color to my linkedin and email plug */
@@ -50,4 +63,47 @@ ul, li {
     list-style-position: inside;
     display: sticky;
     position: relative;
+}
+
+/* Edit positioning of table */
+table {
+    display: inline-block;
+}
+
+/* Fixed sizing of my pictures */
+picture {
+    min-width: 15%;
+    max-width: 15%;
+    min-height: 25%;
+    max-height: 25%;
+    padding: 50px;
+}
+
+/* Add left padding to p text blocks */
+p {
+    padding-left: 50px;
+}
+
+/* Adds a border, padding, and color to all sections */
+section {
+    border-style: dotted;
+    border-width: medium;
+    border-color: olive;
+    border-radius: 17px;
+    display: block;
+    background-color: peachpuff;
+    display: static;
+    position: sticky;
+    margin: auto;
+    padding: auto;
+}
+
+/* Adds a pseudo-class selector for links that changes it's color when hovered over */
+a:hover {
+    background-color: rgb(255, 145, 0);
+    color: ivory;
+}
+a:active{
+    background-color: hsl(54, 100%, 67%);
+    color: dimgray;
 }
