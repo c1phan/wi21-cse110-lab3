@@ -16,6 +16,12 @@
     font-family: shadows;
 }
 
+/* ID selector for form -- changes font color */
+#form {
+    font-size: medium;
+    color: rgba(250, 103, 6, 0.98)
+}
+
 /* Adds some color and padding to all h3 */
 h3 {
     font-family: shadows;
@@ -33,6 +39,7 @@ p {
     margin-bottom: 15px;
     margin-left: 5px;
     margin-right: 5px;
+    padding-left: 50px;
 }
 
 /* Colors and pads the first p after a h3. */
@@ -48,7 +55,7 @@ h3 + p {
 
 /* Colors all h4 siblings of h3 */
 h3 ~ h4 {
-    background-color:seashell;
+    background-color:rgba(255, 245, 238, 0.678);
     padding: 25px;
     line-height: 2em;
     margin-top: 15px;
@@ -69,6 +76,14 @@ div > h3 {
     text-decoration: underline;
 }
 
+div p {
+    color: rgb(16, 0, 34);
+}
+
+p.green{
+    color: rgb(17, 143, 80)
+}
+
 /* Adds some color to my linkedin and email plug */
 .side_note{
     padding: 10px 10px 10px 10px;
@@ -78,12 +93,16 @@ div > h3 {
 
 /* Makes words in italic a purple-blue color*/
 i {
-    color: hsla(256, 100%, 45%, 1);
+    color: hsla(256, 100%, 45%, 0.99);
 }
 
 /* Makes words in bold a pink color*/
 b {
     color: rgb(250, 106, 148);
+}
+
+s[target=_strike]{
+    color: #921
 }
 
 /* Aligns the lists */
@@ -117,11 +136,6 @@ picture {
     padding: 50px 50px 50px 50px;
 }
 
-/* Add left padding to p text blocks */
-p {
-    padding-left: 50px;
-}
-
 /* Adds a border, padding, and color to all sections */
 section {
     border-style: dotted;
@@ -138,7 +152,7 @@ section {
 
 /* Adds a pseudo-class selector for links that changes it's color when hovered over */
 a:hover {
-    background-color: rgba(255, 145, 0, 1);
+    background-color: rgb(255, 145, 0);
     color: ivory;
 }
 a:active{
