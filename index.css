@@ -13,7 +13,7 @@
     padding: auto;
     height: auto;
     width: auto;
-    font-family: shadows;
+    font-family: 'Shadows Into Light', cursive;
     text-align: center;
 }
 
@@ -176,11 +176,11 @@ a:active{
     color: dimgray;
 }
 
-/* Added ShadowsIntoLight Font */
+/* Added ShadowsIntoLight Font
 @font-face {
-    font-family: shadows;
+    font-family: 'Shadows Into Light', cursive;
     src: url(../fonts/ShadowsIntoLight-Regular.ttf)
-}
+} */
 
 /* Flexbox CSS elements */
 .parent{
@@ -249,7 +249,7 @@ a:active{
 
 @media only screen and (max-width:1000px) {
     body{
-        color: #777;
+        color: #889;
         background-color: hsla(108, 81%, 19%, 0.884);
     }
 }
